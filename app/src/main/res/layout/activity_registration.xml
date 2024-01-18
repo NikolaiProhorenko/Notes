@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_margin="120dp"
+        android:text="Add new login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/first_name"
+        android:textSize="20sp"
+        android:textColor="#053507"
+        android:layout_marginHorizontal="100sp"
+        android:text="First name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/second_name"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        android:layout_marginHorizontal="100dp"
+        android:text="Second name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:textSize="20sp"
+        android:textColor="#CC2760"
+        android:layout_marginHorizontal="100dp"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:layout_marginHorizontal="100dp"
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign-up"/>
+
+    <Button
+        android:id="@+id/go_to_login"
+        android:layout_marginHorizontal="130dp"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:text="Go to login"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
